@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IO">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABQAAAAAAAAgAAAAAAAAQABAAAAAAAAI=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIIEAAAABAAAAgAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>Cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColoredCell">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColoredCell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellComponent">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAAAAAAAAAAgAAAAQAAIAAAAAAAABQAAAAAAAA=</HashCode>
+      <FileName>CellComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteCellComponent">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAADAAAAgAAAAAAAAAAAAAAAABBgAAAAAAA=</HashCode>
+      <FileName>SpriteCellComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grid">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAgAAAJAABABBAAAAAAAAAAAAAAACAFAABAAAAQA=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Checker">
+    <Position X="3.25" Y="9.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Checker::CheckerColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Checker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Checker::MoveList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Checker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAgAEAAIGAAEgAghGAAAAAAAAACAAAAAABAAAAA=</HashCode>
+      <FileName>Checker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCell">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GameCell::CellColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameCell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="GameCell::CellLocNum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameCell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="GameCell::CellLocChar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameCell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAIEAAAgAAAAIAAAAAIQACgAAAAAAAAAAA=</HashCode>
+      <FileName>GameCell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="IO" ManuallyRouted="true">
+      <Path>
+        <Point X="4.25" Y="2.247" />
+        <Point X="4.25" Y="3.415" />
+        <Point X="6.417" Y="3.415" Type="JumpStart" />
+        <Point X="6.583" Y="3.415" Type="JumpEnd" />
+        <Point X="10.25" Y="3.415" />
+        <Point X="10.25" Y="3" />
+        <Point X="11.25" Y="3" />
+        <Point X="11.25" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAgIAAAAAAAAAAAACACBACAQAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAIABAAAAAAAAAAEAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckerFlushCellComponent">
+    <Position X="3.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CheckerFlushCellComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlushCellComponent">
+    <Position X="3.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>FlushCellComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveCellComponent">
+    <Position X="7.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MoveCellComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotMoveCellComponent">
+    <Position X="1" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>NotMoveCellComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectedCheckerCellComponent">
+    <Position X="5.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SelectedCheckerCellComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StepBlank">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABIAAAAABQBAAAAAAAAAAAAAAAAAABEAAADIAAI=</HashCode>
+      <FileName>StepBlank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StepBlankNode">
+    <Position X="13.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAASBAAAAAAAAA=</HashCode>
+      <FileName>StepBlankNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AIPlayer">
+    <Position X="10.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AIPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Move" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Move.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Point" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Size" Collapsed="true">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Scale" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

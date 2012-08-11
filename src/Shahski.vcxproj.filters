@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Board">
+      <UniqueIdentifier>{78f4c5ca-21e8-4153-b15f-b1f0a59a49fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Board">
+      <UniqueIdentifier>{47f75db8-211a-4ff2-9c16-fe0caeca8cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StepBlank">
+      <UniqueIdentifier>{85166832-3005-4fd0-a2df-1fe9a5f4740f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Board\Cell">
+      <UniqueIdentifier>{a1246838-7e7c-4ed6-a30b-8c80fd21a83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Board\Cell">
+      <UniqueIdentifier>{aee68fd3-9ce0-4dc0-92fe-6f2ad793517f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Board\Cell\Flushes">
+      <UniqueIdentifier>{ed661e7e-678c-4e81-b378-7cac598f42b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StepBlank">
+      <UniqueIdentifier>{687c6335-7c04-4cb5-9245-dda6da380d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{cd79915e-110e-4e7b-9af6-6009444bf3fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{cdc4b2dc-0298-40b8-ae26-9e9b74fc3eec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Header Files\Board\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="ColoredCell.h">
+      <Filter>Header Files\Board\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="CellComponent.h">
+      <Filter>Header Files\Board\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteCellComponent.h">
+      <Filter>Header Files\Board\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCell.h">
+      <Filter>Header Files\Board\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Checker.h">
+      <Filter>Header Files\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="StepBlank.h">
+      <Filter>Header Files\StepBlank</Filter>
+    </ClInclude>
+    <ClInclude Include="StepBlankNode.h">
+      <Filter>Header Files\StepBlank</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCellComponent.h">
+      <Filter>Header Files\Board\Cell\Flushes</Filter>
+    </ClInclude>
+    <ClInclude Include="NotMoveCellComponent.h">
+      <Filter>Header Files\Board\Cell\Flushes</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckerFlushCellComponent.h">
+      <Filter>Header Files\Board\Cell\Flushes</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectedCheckerCellComponent.h">
+      <Filter>Header Files\Board\Cell\Flushes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlushCellComponent.h">
+      <Filter>Header Files\Board\Cell\Flushes</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AIPlayer.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source Files\Board\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="ColoredCell.cpp">
+      <Filter>Source Files\Board\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="CellComponent.cpp">
+      <Filter>Source Files\Board\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteCellComponent.cpp">
+      <Filter>Source Files\Board\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCell.cpp">
+      <Filter>Source Files\Board\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Checker.cpp">
+      <Filter>Source Files\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="FlushCellComponent.cpp">
+      <Filter>Source Files\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="StepBlank.cpp">
+      <Filter>Source Files\StepBlank</Filter>
+    </ClCompile>
+    <ClCompile Include="StepBlankNode.cpp">
+      <Filter>Source Files\StepBlank</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPlayer.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
